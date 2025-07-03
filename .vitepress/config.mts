@@ -26,6 +26,13 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Channeling',
+        collapsed: false,
+        items: [
+          { text: 'Channels', link: '/channeling/channels' },
+        ]
+      },
+      {
         text: 'Layers',
         collapsed: false,
         items: [
