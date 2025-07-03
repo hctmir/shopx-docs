@@ -1,0 +1,38 @@
+# .github/workflows/protect-main.yml
+
+name: 'Protect Main Branch'
+
+on:
+  pull_request:
+    # This workflow only runs on pull requests that target the 'main' branch
+    branches:
+      - main
+    # Run the workflow when a PR is opened, reopened, or when new commits are pushed
+    types:
+      - opened
+      - synchronize
+      - reopened
+
+jobs:
+  enforce-staging-source:
+    name: 'Enforce PR from Staging'
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Check that the source branch is staging'
+        # The 'github' context contains information about the workflow run.
+        # 'github.head_ref' is the name of the source branch of the PR.
+        # 'github.base_ref' is the name of the target branch of the PR.
+        # We check if the source branch is NOT 'staging'.
+        if: github.head_ref != 'staging'
+        run: |
+          echo "❌ ERROR: Pull requests to 'main' are only allowed from the 'staging' branch."
+          echo "Please open a pull request from 'staging' to 'main'."
+          # Exit with a non-zero status code to make the job fail.
+          exit 1
+      
+      - name: 'Source branch is correct'
+        # This step only runs if the 'if' condition in the previous step was false.
+        # i.e., the source branch IS 'staging'.
+        if: github.head_ref == 'staging'
+        run: |
+          echo "✅ Success: Pull request is from 'staging' branch. Check passed."
