@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "ShopXr"
+  name: "ShopX"
   text: "Template Development Documentation"
   tagline: My great project tagline
   actions:
