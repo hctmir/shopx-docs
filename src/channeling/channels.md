@@ -1,2 +1,3 @@
 # Channels
+What are Channels?
 
