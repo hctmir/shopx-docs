@@ -17,7 +17,7 @@ For optimal performance and compatibility, we recommend using **Google Chrome** 
 > - `ap-east-1.api.cce.vmlsites.com`
 > - `shopxgcm.com`
 
-## 🚀 ShopX Registration & Login Guide
+## 🚀 ShopX Registration & Login Guide {#login-n-register}
 
 ### 📝 Registration (First-Time Users)
 
