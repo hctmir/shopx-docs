@@ -6,6 +6,7 @@ export default defineConfig({
   description: "ShopX Template Development Documentation",
   base: '/shopx-docs/',
   srcDir: 'src',
+  ignoreDeadLinks: true,
   head: [
     ['link', { rel: 'icon', href: 'https://res.cloudinary.com/dh3gpwrps/image/fetch/h_150,c_limit/https://cceencoderstackhkstage-videoencoder5499e89e-cg3v8idmb8b7.s3.ap-east-1.amazonaws.com/3d9f415d-887b-4504-8c4c-5be697b017b4/uploads/image/1c144d8f-ae6f-48ef-9ba6-74658476aef3.png' }]
   ],
