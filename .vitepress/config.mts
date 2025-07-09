@@ -31,6 +31,9 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Channels', link: '/channeling/channels' },
+          { text: 'Sub Channels', link: '/channeling/sub-channels' },
+          { text: 'POIs', link: '/channeling/pois' },
+          { text: 'How to', link: '/channeling/how-to' },
         ]
       },
       {
