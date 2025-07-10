@@ -40,7 +40,8 @@ export default defineConfig({
         text: 'Layers',
         collapsed: false,
         items: [
-          { text: 'What are Layers?', link: '/layers/what-are-layers' }
+          { text: 'What are Layers?', link: '/layers/what-are-layers' },
+          { text: 'Best Practices', link: '/layers/best-practices' },
         ]
       },
       {
