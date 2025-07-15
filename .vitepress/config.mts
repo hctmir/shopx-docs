@@ -48,19 +48,22 @@ export default defineConfig({
         text: 'Styles',
         collapsed: false,
         items: [
-          { text: 'Introduction', link: '/styling/introduction' }
+          { text: 'Introduction', link: '/styling/introduction' },
+          { text: 'Package Styles', link: '/styling/package-styles' },
+          { text: 'Tactic Styles', link: '/styling/tactic-styles' },
         ]
       },
       {
         text: 'Customizations',
         collapsed: false,
         items: [
-          { text: 'What are Customizations?', link: '/customizations/what-are-customizations' }
+          { text: 'What are Customizations?', link: '/customizations/what-are-customizations' },
+          { text: 'Variables & Merge Tags', link: '/customizations/variables-n-merge-tags' },
         ]
       },
       {
         text: 'Settings',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: 'Introduction', link: '/settings/introduction' },
           { text: 'Metadata', link: '/settings/metadata' },
@@ -70,7 +73,14 @@ export default defineConfig({
           { text: 'Print Settings', link: '/settings/print-settings' },
           { text: 'Advanced', link: '/settings/advanced' },
         ]
-      }
+      },
+      {
+        text: 'Tutorials',
+        collapsed: false,
+        items: [
+          { text: 'Price Talker From Zero', link: '/tutorials/price-talker-from-zero' }
+        ]
+      },
     ],
 
     socialLinks: [
