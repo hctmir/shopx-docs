@@ -81,6 +81,16 @@ export default defineConfig({
           { text: 'Price Talker From Zero', link: '/tutorials/price-talker-from-zero' }
         ]
       },
+      {
+        text: 'Quality Assurance (QA)',
+        collapsed: false,
+        items: [
+          { text: 'Introduction', link: '/qa-guidelines/introduction' },
+          { text: 'Setup', link: '/qa-guidelines/setup' },
+          { text: 'Workflow', link: '/qa-guidelines/workflow' },
+          { text: 'Protips', link: '/qa-guidelines/protips' }
+        ]
+      },
     ],
 
     socialLinks: [
