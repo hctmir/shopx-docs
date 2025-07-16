@@ -78,7 +78,7 @@ export default defineConfig({
         text: 'Tutorials',
         collapsed: false,
         items: [
-          { text: 'Price Talker From Zero', link: '/tutorials/price-talker-from-zero' }
+          { text: 'Head Card', link: '/tutorials/head-card' }
         ]
       },
       {
