@@ -1,4 +1,4 @@
-# Building a Head Card from the Ground Up 🛠️
+# Building a Head Card from the Ground Up 🛠️ <Badge type="tip" text="30 min" />
 
 Ready to build a `Head Card` component from scratch? Let's dive in! (⌐■_■)
 
