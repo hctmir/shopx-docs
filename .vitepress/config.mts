@@ -91,6 +91,13 @@ export default defineConfig({
           { text: 'Protips', link: '/qa-guidelines/protips' }
         ]
       },
+      {
+        text: 'Way Of Work',
+        collapsed: false,
+        items: [
+          { text: 'CCE', link: '/way-of-work/cce' },
+        ]
+      },
     ],
 
     socialLinks: [
