@@ -37,6 +37,15 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Tagging Sheet',
+        collapsed: false,
+        items: [
+          { text: 'Introduction', link: '/tagging-sheet/introduction' },
+          { text: 'Content', link: '/tagging-sheet/content' },
+          { text: 'New CCE Version', link: '/tagging-sheet/new-cce-version' },
+        ]
+      },
+      {
         text: 'Layers',
         collapsed: false,
         items: [
