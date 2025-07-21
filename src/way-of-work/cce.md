@@ -1,4 +1,4 @@
-# 🚀 Way of Work CCE 🌟
+# 🚀 Way of Working CCE 🌟
 
 
 ## 🧭 1. Work Methodology  
